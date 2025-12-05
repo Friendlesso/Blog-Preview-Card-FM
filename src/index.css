@@ -1,1 +1,30 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Figtree-medium';
+  src: url('./assets/fonts/Figtree-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Figtree-ExtraBold';
+  src: url('./assets/fonts/Figtree-ExtraBold.ttf');
+}
+
+:root {
+  --background-color: #F4D04E;
+  --learning-tag-color: #F4D04E;
+  --text-gray-dark: #111111;
+  --text-gray-light: #6B6B6B;
+  --text-yellow-hovered: #F4D04E;
+  --box-shadow: 6px 6px black;
+  --box-shadow-hovered: 10px 10px black;
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
